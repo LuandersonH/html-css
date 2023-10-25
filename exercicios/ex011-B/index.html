@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/Treetog-Junior-Folder-blue-pictures.256.png" type="image/x-icon">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>INSERINDO IMAGENS</h1>
+    <h2>As imagens são responsivas, ao ajustar o tamanho da janela ou mesmo abrir em dispositivos com largura de tela diferentes, as imagens irão se adaptar.</h2>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/P.jpg" type="image/jpeg">
+        <source media="(max-width: 1050px)" srcset="Imagens/M.jpg" type="image/jpeg">
+        <img src="Imagens/G.jpg" alt="Imagem Flexivel">
+    </picture>
+
+    <h1>INSERINDO AUDIOS</h1>
+    <p>segue abaixo a msc</p>
+    <audio preload="metadata" controls>
+        <source src="midia/djonga-oto.mp3" type="audio/mpeg">
+        <source src="midia/djonga-oto.ogg" type="audio/ogg">
+        <source src="midia/djonga-oto.wav" type="audio/wav">
+        <p>Seu navegador não pode reproduzir aúdios</p>
+    </audio>
+</body>
+</html>
