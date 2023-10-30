@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical de Caixas</title>
+    <style>
+        #container {
+            position: relative;
+            height: 500px;
+            padding: 10px;
+            background-color: purple;
+            background-image: url(img/target001.png);
+            background-size: 100% 100%;
+        }
+
+        #conteudo {
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-image: url(img/target001.png);
+            background-color: rgb(42, 255, 4);
+            background-size: 100% 100%;
+            margin: auto;
+            transform: translate(-50%, -50%); /*transform translete define a "ancora" da imagem em um novo ponto. Definimos que o "ponto de contato" ou a "ancora" da imagem é o seu centro */
+
+            left: 50%;
+            top: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo"></article>
+    </section>
+</body>
+</html>
