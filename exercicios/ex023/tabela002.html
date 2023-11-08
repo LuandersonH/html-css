@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        body {
+            background: linear-gradient(to right, black, rgb(90, 90, 129));
+            font-size: 2em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            background-color: aliceblue;
+            border: solid 2px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid;
+            padding: 10px;
+        }
+
+        th {
+            color: blue;
+        }
+
+        td:nth-child(2), td:nth-child(3), td:nth-child(4), td:nth-child(5), td:nth-child(6) {
+            text-align: right;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1>Tabela Grandona</h1>
+    <table>
+        <thead>
+            <th>Clube</th>
+            <th>Pontos</th>            
+            <th>PJ</th>
+            <th>VIT</th>
+            <th>EMP</th>
+            <th>DER</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Botafogo</td>
+                <td>59</td>
+                <td>31</td>
+                <td>18</td>
+                <td>5</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Palmeiras</td>
+                <td>59</td>
+                <td>30</td>
+                <td>17</td>
+                <td>8</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Bragantino</td>
+                <td>58</td>
+                <td>16</td>
+                <td>10</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Grêmio</td>
+                <td>56</td>
+                <td>32</td>
+                <td>17</td>
+                <td>5</td>
+                <td>10</td>            
+            </tr>
+            <tr>
+                <td>Atlético-MG</td>
+                <td>53</td>
+                <td>32</td>
+                <td>15</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Campeão:</th>
+                <td>palmeiras vsf</td>
+                <td>rodada atual: 32</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+</html>
