@@ -30,20 +30,24 @@
         td:nth-child(2), td:nth-child(3), td:nth-child(4), td:nth-child(5), td:nth-child(6) {
             text-align: right;
         }
+
+        tfoot > tr > td {
+            font-size: 0.5em;
+        }
     </style>
 </head>
 
 
 <body>
-    <h1>Tabela Grandona</h1>
+    <h1>Tabela Brasileirão 2023</h1>
     <table>
         <thead>
-            <th>Clube</th>
-            <th>Pontos</th>            
-            <th>PJ</th>
-            <th>VIT</th>
-            <th>EMP</th>
-            <th>DER</th>
+            <th scope="col">Clube</th>
+            <th scope="col">Pontos</th>            
+            <th scope="col">PJ</th>
+            <th scope="col">VIT</th>
+            <th scope="col">EMP</th>
+            <th scope="col">DER</th>
         </thead>
         <tbody>
             <tr>
@@ -87,10 +91,10 @@
             </tr>
         </tbody>
         <tfoot>
-            <tr>
-                <th>Campeão:</th>
-                <td>palmeiras vsf</td>
-                <td>rodada atual: 32</td>
+            <tr> 
+                <th scope="row">Campeão:</th>
+                <td>palmeiras rodada 32</td>
+                <td>botafogo rodada 33</td>
             </tr>
         </tfoot>
 
