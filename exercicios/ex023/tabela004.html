@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Colgroup</title>
+   
+    <style>
+        table {
+            background-color: rgba(50, 47, 144, 0.673);
+            font-size: 18pt;
+            width: 500px;
+            border: 1px solid purple;
+        }
+
+        td {
+            border: 2px solid rgb(0, 0, 0);
+            padding: 2px;
+        }
+
+        col.cnome {
+            background-color: yellow;
+        }
+
+        col.cidade {
+            background-color: purple;
+        }
+
+        col.csexnum {
+            background-color: blue
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cidade">
+            <col class="csexnum" span="2">
+            
+        </colgroup>
+        <caption>Colgroup</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Sexo</th>
+            <th>Número</th>
+        </tr>
+        <tr>
+            <td>Juliana</td>
+            <td>43</td>
+            <td>F</td>
+            <td>1599099009</td>
+        </tr>
+        <tr>
+            <td>Jorge</td>
+            <td>23</td>
+            <td>M</td>
+            <td>13244234234</td>
+        </tr>
+        <tr>
+            <td>He-man</td>
+            <td>28</td>
+            <td>M</td>
+            <td>1599034309</td>
+        </tr>
+        <tr>
+            <td>Bruno</td>
+            <td>73</td>
+            <td>M</td>
+            <td>1599933109</td>
+        </tr>
+    </table>
+</body>
+</html>
