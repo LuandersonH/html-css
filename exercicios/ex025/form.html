@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formlário Final</h1>
+    <form action="cadastro.php" method="post">
+
+        <Fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="inome">Nome:</label> <input type="text" name="nome" id="inome" required placeholder="Insira seu nome">
+            <label for="itel">Tel.:</label> <input type="tel" name="tel" id="itel" required placeholder="(xx) xxxxx-xxxx" maxlength="12" autocomplete="tel">
+            <label for="iendereco">Endereço:</label> <input type="text" name="endereco" id="iendereco" required placeholder="Rua, nº - bairro - cidade">
+            <label for="iemail">E-mail</label>: <input type="email" name="" id="iemail" required autocomplete="email" placeholder="insira seu email">
+            
+            <label for="sexo">Sexo:</label>
+            <label for="M">Masculino </label><input type="radio" name="sexo" id="M" required checked> 
+            <label for="F">Feminino </label><input type="radio" name="sexo" id="F" required>
+        </Fieldset>
+
+        <fieldset>
+            <legend>Esporte Preferido</legend>
+            <label for="ifut">Fut</label> <input type="checkbox" name="fut" id="ifut">
+            <label for="ibasquete">Basquete</label> <input type="checkbox" name="basquete" id="ibasquete">
+            <label for="ivolei">Volei (gay)</label> <input type="checkbox" name="volei" id="ivolei">
+            <label for="ipingpong">Ping pong</label> <input type="checkbox" name="pingpong" id="ipingpong">
+        </fieldset>
+            
+        <fieldset>
+            <legend>Agendamento</legend>
+            <label for="ihora">Horário:</label><input type="time" name="hora" id="ihora">
+            <label for="idata">Data:</label><input type="date" name="data" id="idata">
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+
+</body>
+</html>
