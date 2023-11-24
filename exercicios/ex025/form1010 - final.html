@@ -22,21 +22,36 @@
         </Fieldset>
 
         <fieldset>
-            <legend>Esporte Preferido</legend>
-            <label for="ifut">Fut</label> <input type="checkbox" name="fut" id="ifut">
-            <label for="ibasquete">Basquete</label> <input type="checkbox" name="basquete" id="ibasquete">
-            <label for="ivolei">Volei (gay)</label> <input type="checkbox" name="volei" id="ivolei">
-            <label for="ipingpong">Ping pong</label> <input type="checkbox" name="pingpong" id="ipingpong">
+            <legend>Cor preferida</legend>
+            <label for="icolor">Escolha sua cor preferida: </label><input type="color" name="color" id="icolor">
         </fieldset>
-            
+
+
+        <fieldset>
+            <legend>Esporte Preferido</legend>
+            <input type="checkbox" name="fut" id="ifut"><label for="ifut">Fut</label> <br>
+            <input type="checkbox" name="basquete" id="ibasquete"><label for="ibasquete">Basquete</label> <br>
+            <input type="checkbox" name="volei" id="ivolei"><label for="ivolei">Volei (gay)</label> <br>
+            <input type="checkbox" name="pingpong" id="ipingpong"><label for="ipingpong">Ping pong</label> <br> <br>
+            <label for="iquanto">O quanto você gosta desses esportes?</label> <input type="range" name="quanto" id="iquanto" min="1" max="5" value="3">
+        </fieldset>
+
         <fieldset>
             <legend>Agendamento</legend>
             <label for="ihora">Horário:</label><input type="time" name="hora" id="ihora">
             <label for="idata">Data:</label><input type="date" name="data" id="idata">
         </fieldset>
 
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Limpar">
+        <fieldset>
+            <legend>Insira sua foto:</legend>
+            <input type="file" name="foto" id="ifoto">
+        </fieldset>
+
+        <fieldset>
+            <legend>Confirmação</legend>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </fieldset>
     </form>
 
 </body>
