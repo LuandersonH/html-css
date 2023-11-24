@@ -10,7 +10,7 @@
     <form action="cadastro.php" method="get" autocomplete="on">
 
         <fieldset>
-            <legend>SELECT</legend>
+            <legend>Select</legend>
             <label for="iestado">Estado: </label>
             <select name="estado" id="iestado">
                 <option value="" selected>---insira seu estado---</option>
@@ -52,6 +52,13 @@
                 <option value="PROF">Professor</option>
                 <option value="DEV">Desenvolvedor</option>
             </datalist>
+        </fieldset>
+
+        <fieldset>
+            <legend>Mensagem</legend>
+            <label for="imsg">Insira seu texto abaixo:</label> 
+            <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
         </fieldset>
 
         <fieldset>
