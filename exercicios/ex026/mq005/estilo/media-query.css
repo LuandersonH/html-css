@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* Typical Devices Breakpoint  
+
+    Extra small = -600px 
+
+    Small devices = 600px até 768px
+
+    Medium devices = 768px até 992px
+
+    Large devices = 992px até 1200px
+
+    Extra large devices = +1200px 
+
+*/
+
+@media screen and (min-width: 768px) {
+    i#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+}
+
